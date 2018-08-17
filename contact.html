@@ -8,7 +8,9 @@
 </head>
 
 <body>
-    <h1>
+    <div class="top">
+
+    <h1 class="myname">
         Carolyn Bernier
     </h1>
 
@@ -17,19 +19,20 @@
         <a href="#news">Portfolio</a>
         <a href="#contact">Contact</a>
     </div>
-
-    <div clas="wrapper">
-
+</div>
+    
+    <div class="wrapper">
+        <h1 class="pagename">Contact</h1>
+        <hr>
         <form action="/action_page.php">
             <p>Name:
-            <input name="name" type="text"> </p>
-            <p>Email:
-            <input name="Email" type="text"> 
-            <p>Message:
-            <textarea name="message" rows="10" cols="30"></textarea></p>
+            <input name="name" type="text" cols="70" ></p>
+            <p>Email<input name="Email" type="text" cols="70"></p> 
+            <p>Message
+            <textarea name="message" rows="10" cols="70"></textarea></p>
             <br>
             <br>
-            <input type="submit">
+            <input type="submit" id="submit">
         </form>
 
     </div>

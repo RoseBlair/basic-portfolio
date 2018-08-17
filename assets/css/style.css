@@ -4,21 +4,47 @@
     color: #777777;
 }
 
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
+body {
+    background: URL("assets/images/country-quilt.png");
 }
 
-h2 {
-   background-color: #4aaaa5;
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.topnav {
+    
+    float: right;
+    
+}
+
+.top {
+    width: 100%;
+    background: grey;
+}
+
+.myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+
+
+.pagename {
+    color: #4aaaa5;
 }
 
 
 .wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    background: blue;
+    
 }
 
 .site-footer {
@@ -28,20 +54,48 @@ h2 {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px;
-    border-top: 5px;
-    border-color: teal;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-top: 5px teal;
     text-align: center;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 .column {
-    width: 30%;
+    
+    column-count: 2;
+    column-gap: 1px;
+    column-width: 200px;
 }
 
 .topnav {
     float: left;
+    background-color: lightblue;
 }
 
-.submit {
-    background: teal;
+#submit {
+    background:#4aaaa5;
+    color: #ffffff;
+    padding: 6px 18px;
+    box-shadow: none;
+}
+
+img {
+    float: left;
+}
+
+p {
+    line-height: 2em;
+    font-size: 22px;
+    
+}
+
+#selfie {
+    float: left;
+    margin-right: 20px;
+}
+
+hr {
+    border-color: #777777;
 }
