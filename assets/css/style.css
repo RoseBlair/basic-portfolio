@@ -16,7 +16,7 @@ h1 {
 
 .top {
     width: 100%;
-    background: grey;
+    background: white;
     margin: auto 0;
     position: relative;
     padding: 40px;
@@ -28,6 +28,17 @@ h1 {
     position: absolute;
     right: 150px;
     bottom: -25px;  
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 30px;
+    margin-left: 40px;
+}
+
+.divvydiv {
+    padding: 10px;
 }
 
 hr {
