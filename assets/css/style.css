@@ -101,7 +101,8 @@ a {
     background:#4aaaa5;
     color: #ffffff;
     padding: 6px 18px;
-    box-shadow: none;
+    border: none;
+    margin-bottom: 20px;
 }
 
 /* POSITION RELATIVE PROPERTY */
