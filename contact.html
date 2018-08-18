@@ -9,27 +9,27 @@
 
 <body>
     <div class="top">
+        <h1 class="myname">
+            Carolyn Bernier
+        </h1>
 
-    <h1 class="myname">
-        Carolyn Bernier
-    </h1>
-
-    <div class="topnav">
-        <a class="active" href="#about">About</a>
-        <a href="#news">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <div class="topnav">
+            <a class="active" href="#about">About</a>
+            <a href="#news">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
-</div>
     
     <div class="wrapper">
         <h1 class="pagename">Contact</h1>
         <hr>
         <form action="/action_page.php">
-            <p>Name:
-            <input name="name" type="text" cols="70" ></p>
-            <p>Email<input name="Email" type="text" cols="70"></p> 
-            <p>Message
-            <textarea name="message" rows="10" cols="70"></textarea></p>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="name" rows="1" cols="70" >
+            <label for="email"><b>Email</b></label>
+            <input name="text" placeholder="example@gmail.com" rows="1" type="text" cols="70"></p> 
+            <label for="name"><b>Message</b></label>
+            <input type="text" placeholder="" rows="1" cols="70" >
             <br>
             <br>
             <input type="submit" id="submit">

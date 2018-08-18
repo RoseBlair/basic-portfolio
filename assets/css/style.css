@@ -12,7 +12,6 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
 
 /* NAVIGATION BAR */
@@ -52,6 +51,7 @@ h1 {
     overflow: hidden;
     display: block;
     background: white;
+   
     
 }
 
@@ -70,11 +70,20 @@ h1 {
     font-size: 12px;
 }
 
-.column {
-    
-    column-count: 2;
+.column1,
+.column2 {
+    width: 42.5%;
+    /* column-count: 2;
     column-gap: 1px;
-    column-width: 200px;
+    column-width: 200px; */
+}
+
+.column1 {
+    float: left;
+}
+
+.column2 {
+    float: right;
 }
 
 .topnav {
@@ -90,13 +99,12 @@ h1 {
 }
 
 img {
-    float: left;
+    position: relative;
 }
 
 p {
     line-height: 2em;
     font-size: 22px;
-    
 }
 
 #selfie {
@@ -105,7 +113,8 @@ p {
 }
 
 hr {
-    border-color: #777777;
+    border-color:#e1e1e1;
+    background-color: #e1e1e1;
 }
 
 .name {
@@ -123,4 +132,8 @@ hr {
     right: 0;
     background-color: #4aaaa5;
     
+}
+
+img {
+    margin: 10px;
 }
