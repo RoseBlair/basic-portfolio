@@ -83,18 +83,26 @@ a {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 5px;
-    border-top: 5px teal;
+    border-top: 5px #4aaaa5;
     text-align: center;
     color: #ffffff;
     font-size: 12px;
+    border-top-style: solid;
 }
 
-/* OVERFLOW HIDDEN PROPERTY */
+.row:after {
+    content: "";
+    clear: both;
+}
+
+.row {
+    overflow: auto;
+}
 
 .column {
     column-count: 2;
-    column-gap: 1px; 
-    overflow: hidden;
+    float: left;
+    margin-left: 20px;
 }
 
 #submit {
