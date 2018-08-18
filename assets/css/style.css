@@ -3,7 +3,6 @@ p {
     color: #777777;
 }
 
-/* BACKGROUND */
 
 body {
     background: URL(../images/country-quilt.png);
@@ -13,27 +12,37 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* RELATIVE POSITIONING PROPERTY */
 
+.top {
+    width: 100%;
+    background: grey;
+    margin: auto 0;
+    position: relative;
+    padding: 40px;
+}
+
+/* ABSOLUTE POSITIONING PROPERTY */
 
 .topnav {
     position: absolute;
     right: 150px;
-    bottom: -25px;
-    
+    bottom: -25px;  
 }
-
-/* ALL PAGES */
 
 hr {
     border-color:#e1e1e1;
     background-color: #e1e1e1;
     width: 95%;
-    
 }
 
-.name {
-    width: 100%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+/* ABSOLUTE POSITIONING PROPERTY */
+
+.myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 15px 25px;
+    position: absolute;
 }
 
 .pagename {
@@ -41,22 +50,10 @@ hr {
     padding-left: 25px;
 }
 
-
-.top {
-    width: 100%;
-    background: grey;
-    margin: auto 0;
-    position: relative;
+a {
+  color: #777777;  
+  text-decoration: none;
 }
-
-.myname {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    display: inline-block;
-    padding-left: 15px 25px;
-    position: absolute;
-}
-
 
 .wrapper {
     width: 960px;
@@ -64,8 +61,6 @@ hr {
     overflow: hidden;
     display: block;
     background: white;
-   
-    
 }
 
 .site-footer {
@@ -83,22 +78,12 @@ hr {
     font-size: 12px;
 }
 
+/* OVERFLOW HIDDEN PROPERTY */
+
 .column {
     column-count: 2;
     column-gap: 1px; 
-}
-
-.column1 {
-    float: left;
-}
-
-.column2 {
-    float: right;
-}
-
-.topnav {
-    float: left;
-    background-color: lightblue;
+    overflow: hidden;
 }
 
 #submit {
@@ -108,26 +93,28 @@ hr {
     box-shadow: none;
 }
 
+/* POSITION RELATIVE PROPERTY */
+
 .portfolio {
     position: relative;
     margin-bottom: 10px;
 }
 
-
 .bio {
     line-height: 2em;
     font-size: 22px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 25px;
 }
+
+/* FLOAT PROPERTY */
 
 #selfie {
     float: left;
-    margin-right: 20px;
-    margin-left: 25px;
-    margin-top: 10px;
+    Margin: 10px 15px 5px 25px;
 }
 
-
+/* POSITION RELATIVE PROPERTY */
 
 .container {
     position: relative; 
@@ -135,6 +122,8 @@ hr {
     height: 324px;
     box-align: left;
 }
+
+/* POSITION ABSOLUTE PROPERTY */
 
 .text-block {
     position: absolute;
@@ -144,15 +133,13 @@ hr {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/* CONTACT PAGE */
-
 label {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
 b {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 form {
