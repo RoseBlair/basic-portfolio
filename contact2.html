@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <div class="top">
+    <header id="masthead">    
+        <div class="container">
             <h1 id="myname">
                 Carolyn Bernier
             </h1>
@@ -19,33 +20,36 @@
                 <a href="./portfolio.html">Portfolio</a>
                 <a href="./contact.html">Contact</a>
             </nav>
+        </div>
+    </header>
+    <div id="main=container" class="container">
+        <section class="main-container">
+            <h1>Contact</h1>
+                <form>
+                    <ul>
+                        <li>
+                            <Label for="name">name</label>
+                            <input type="text" name="name"
+                            id="nameform" placeholder="Jane Doe"
+                            required="required">
+                        </li>
+                        <li>
+                            <Label for="email">email</label>
+                            <input type="text" name="email"
+                            id="email" placeholder="Somebody@gmail.com"
+                            required="required">
+                        </li>
+                        <li>
+                            <Label for="message">message</label>
+                            <textarea id="message" name="message"
+                            required="required"></textarea>
+                        </li>
+                    </ul>
+
+                </form>
+                
+        </section>
     </div>
-
-    
-    <form>
-        <ul>
-            <li>
-                <Label for="name">name</label>
-                <input type="text" name="name"
-                id="nameform" placeholder="Jane Doe"
-                required="required">
-            </li>
-            <li>
-                <Label for="email">email</label>
-                <input type="text" name="email"
-                id="email" placeholder="Somebody@gmail.com"
-                required="required">
-            </li>
-            <li>
-                <Label for="message">message</label>
-                <textarea id="message" name="message"
-                required="required"></textarea>
-            </li>
-        </ul>
-
-    </form>
-    </div>
-
     <footer class="site-footer">
         copyright ©
     </footer>
