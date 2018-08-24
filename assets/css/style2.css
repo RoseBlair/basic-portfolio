@@ -10,14 +10,14 @@ body {
     background: URL(../images/country-quilt.png);
 }
 
-/* .wrapper {
+.container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
     clear: both; 
-} */
+}
 
-.top {
+#Masthead {
     background: white;
     margin: 0 0 30px;
     z-index: 99;
@@ -28,7 +28,7 @@ body {
     
 }
 
-.topnav {
+nav {
     float: right;
     margin-top: 25px;
 }
@@ -95,11 +95,13 @@ h2, h3 {
     font-size: 22px;
 }
 
-idk {
+#main-container {
     padding-top: 130px;
 }
 
- idk {
+
+
+ .main-section {
     background: #fff;
     padding: 30px;
     margin: 0 0 40px 0;
@@ -116,6 +118,7 @@ img {
     float: left;
     margin-right: 25px;
 }
+  
 
 .site-footer {
     background: #666666;
@@ -133,7 +136,7 @@ img {
     border-top-style: solid;
 }
 
-idk {
+.work {
     width: 274px;
     overflow: auto;
     position: relative;
@@ -141,6 +144,47 @@ idk {
     margin: 20px 0 25px;
 }
 
-idk {
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }  
+  
+
+.work:nth-child(even) {
     margin-right: 40px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+text-area {
+    height: 200px;
 }
